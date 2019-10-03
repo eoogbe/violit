@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with an action 1`] = `
+<div
+  aria-live="assertive"
+  className="sc-bdVaJa dXBAhf"
+  role="alert"
+>
+  <p
+    className="sc-htpNat bhpHJD"
+  >
+    Oops! Something went wrong with 
+    creating the foo
+    ! 
+    <button
+      className="sc-bxivhb ErYiX"
+      onClick={[Function]}
+      type="button"
+    >
+      Reload page
+    </button>
+  </p>
+  <button
+    className="sc-bwzfXH haUZkm"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      fill="currentColor"
+      focusable="false"
+      height="1.25em"
+      size="1.25em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      title="Dismiss alert"
+      viewBox="0 0 24 24"
+      width="1.25em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`renders without crashing 1`] = `
+<div
+  aria-live="assertive"
+  className="sc-bdVaJa dXBAhf"
+  role="alert"
+>
+  <p
+    className="sc-htpNat bhpHJD"
+  >
+    Oops! Something went wrong with 
+    that action
+    ! 
+    <button
+      className="sc-bxivhb ErYiX"
+      onClick={[Function]}
+      type="button"
+    >
+      Reload page
+    </button>
+  </p>
+  <button
+    className="sc-bwzfXH haUZkm"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      fill="currentColor"
+      focusable="false"
+      height="1.25em"
+      size="1.25em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      title="Dismiss alert"
+      viewBox="0 0 24 24"
+      width="1.25em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+      />
+    </svg>
+  </button>
+</div>
+`;

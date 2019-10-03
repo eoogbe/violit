@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders when empty 1`] = `
+<p
+  className="sc-jTzLTM dHyGjY"
+>
+  No threads
+</p>
+`;
+
+exports[`renders without crashing 1`] = `
+<ul
+  className="sc-iAyFgw ethZA"
+>
+  <li
+    className="sc-cSHVUG jyfeGj"
+  >
+    <a
+      className="sc-kAzzGY gxAShh"
+      href="/threads/lorem-ipsum"
+      onClick={[Function]}
+    >
+      <article
+        itemScope={true}
+        itemType="http://schema.org/DiscussionForumPosting"
+      >
+        <header
+          className="sc-gqjmRU dBUhVe"
+        >
+          <span
+            className="sc-VigVT djDVvN"
+            itemProp="author"
+          >
+            fred-astaire
+          </span>
+          <time
+            dateTime="2019-09-29T01:23:45.679Z"
+            itemProp="dateCreated"
+            title="2019-09-29T01:23:45.679Z"
+          >
+            1 month ago
+          </time>
+        </header>
+        <p
+          className="sc-chPdSV cNuhyb"
+          itemProp="headline"
+        >
+          Lorem ipsum
+        </p>
+      </article>
+    </a>
+  </li>
+  <li
+    className="sc-cSHVUG jyfeGj"
+  >
+    <a
+      className="sc-kAzzGY gxAShh"
+      href="/threads/commodo-consequat"
+      onClick={[Function]}
+    >
+      <article
+        itemScope={true}
+        itemType="http://schema.org/DiscussionForumPosting"
+      >
+        <header
+          className="sc-gqjmRU dBUhVe"
+        >
+          <span
+            className="sc-VigVT djDVvN"
+            itemProp="author"
+          >
+            fred-astaire
+          </span>
+          <time
+            dateTime="2019-09-27T03:21:09.876Z"
+            itemProp="dateCreated"
+            title="2019-09-27T03:21:09.876Z"
+          >
+            1 month ago
+          </time>
+        </header>
+        <p
+          className="sc-chPdSV cNuhyb"
+          itemProp="headline"
+        >
+          Commodo consequat
+        </p>
+      </article>
+    </a>
+  </li>
+</ul>
+`;

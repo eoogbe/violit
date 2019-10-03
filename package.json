@@ -1,0 +1,149 @@
+{
+  "name": "violit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An internet forum for discussion",
+  "keywords": [
+    "forum",
+    "discussion",
+    "thread",
+    "board"
+  ],
+  "homepage": "https://github.com/eoogbe/violit",
+  "bugs": "https://github.com/eoogbe/violit/issues",
+  "repository": "github:eoogbe/violit",
+  "license": "Apache-2.0",
+  "author": "Evawere Ogbe <eoogbe@gmail.com>",
+  "scripts": {
+    "start": "PORT=3000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "guide": "styleguidist server",
+    "server": "DEBUG=violit:* ./bin/www",
+    "migrate:create": "db-migrate create",
+    "migrate:up": "./scripts/db/migrate",
+    "db:create": "./scripts/db/create",
+    "db:seed": "DEBUG=violit:* node ./data/seed.js"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "better-sqlite3": "^5.4.3",
+    "camel-case": "^3.0.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.1.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "http-errors": "^1.7.3",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "prop-types": "^15.7.2",
+    "ramda": "^0.26.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-icons": "^3.7.0",
+    "react-loading": "^2.0.3",
+    "react-markdown": "^4.2.2",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-timeago": "^4.4.0",
+    "redux": "^4.0.4",
+    "redux-fp": "^0.2.0",
+    "redux-promise-listener": "^1.1.1",
+    "redux-saga": "^1.1.1",
+    "reselect": "^4.0.0",
+    "slugify": "^1.3.6",
+    "styled-components": "^4.4.1",
+    "use-onclickoutside": "^0.3.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "db-migrate": "^0.11.6",
+    "db-migrate-sqlite3": "^0.4.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "react-styleguidist": "^9.1.16",
+    "react-test-renderer": "^16.10.2",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-mock-store": "^1.5.3",
+    "redux-saga-test-plan": "^4.0.0-rc.3",
+    "supertest": "^4.0.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/node_modules/",
+      "!src/**/index.js",
+      "!src/client/app/store.js",
+      "!src/client/Root.js",
+      "!src/client/serviceWorker.js",
+      "!src/server/api/setModel.js",
+      "!src/server/api/db.js",
+      "!src/server/server.js",
+      "!src/testUtils/**"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 100,
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
+      },
+      "./src/client/app/saga.js": {
+        "statements": -1,
+        "lines": -1
+      },
+      "./src/client/app/UserDropdown/UserDropdown.js": {
+        "statements": -1,
+        "functions": -1
+      },
+      "./src/client/article/ArticleFooter/ArticleFooter.js": {
+        "statements": -1,
+        "functions": -1
+      },
+      "./src/client/comments/CommentList/CommentList.js": {
+        "statements": -2,
+        "branches": -1,
+        "functions": -1,
+        "lines": -2
+      },
+      "./src/client/dropdown/useMenuPlacement.js": {
+        "statements": -1,
+        "branches": -1,
+        "lines": -1
+      },
+      "./src/client/threads/Thread/Thread.js": {
+        "statements": -3,
+        "branches": -2,
+        "functions": -3,
+        "lines": -2
+      },
+      "./src/server/auth/model.js": {
+        "statements": -1,
+        "branches": -1,
+        "lines": -1
+      }
+    }
+  }
+}

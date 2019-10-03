@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<article
+  className="sc-jDwBTQ gWsmob"
+  itemScope={true}
+  itemType="http://schema.org/DiscussionForumPosting"
+>
+  <div
+    className="sc-gPEVay dOeLqP"
+  >
+    <h2
+      className="sc-brqgnP kAzWxO"
+      itemProp="headline"
+    >
+      Lorem ipsum
+    </h2>
+    <header
+      className="sc-jKJlTe dCQNcG"
+    >
+      <span
+        className="sc-eNQAEJ jsbjCq"
+        itemProp="author"
+      >
+        fred-astaire
+      </span>
+      <time
+        dateTime="2019-09-29T01:23:45.679Z"
+        itemProp="dateCreated"
+        title="2019-09-29T01:23:45.679Z"
+      >
+        1 month ago
+      </time>
+    </header>
+    <div
+      itemProp="articleBody"
+    >
+      <div
+        className="sc-bZQynM kESxfG"
+      >
+        <p>
+          Dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+    </div>
+    <form
+      className="sc-cSHVUG jxHEP"
+      onSubmit={[Function]}
+    >
+      <ul
+        className="sc-kAzzGY ckrMOY"
+      >
+        <li>
+          <textarea
+            className="sc-htoDjs kEmxlR"
+            name="text"
+            onChange={[Function]}
+            placeholder="Write a comment"
+            rows={5}
+            value=""
+          />
+        </li>
+      </ul>
+      <button
+        className="sc-ifAKCX hbBAat sc-chPdSV bBcFRQ"
+        disabled={true}
+        type="submit"
+      >
+        Comment
+      </button>
+    </form>
+    <footer
+      className="sc-kpOJdX fzEkOA"
+    >
+      <nav
+        className="sc-dxgOiQ qAjpS"
+      >
+        <button
+          aria-controls="overflow-menu-thread-thread1"
+          aria-expanded={false}
+          aria-haspopup="true"
+          className="sc-ckVGcZ ehJtkF"
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            fill="currentColor"
+            focusable={false}
+            height="1.5em"
+            size="1.5em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            title="More actions"
+            viewBox="0 0 24 24"
+            width="1.5em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+            />
+          </svg>
+        </button>
+      </nav>
+    </footer>
+  </div>
+  <ul
+    className="sc-cvbbAY HtGJA"
+  >
+    <li
+      className="sc-iAyFgw eoNjzy"
+      itemProp="comment"
+      itemScope={true}
+      itemType="http://schema.org/Comment"
+    >
+      <article>
+        <header
+          className="sc-jKJlTe dCQNcG"
+        >
+          <span
+            className="sc-eNQAEJ jsbjCq"
+            itemProp="author"
+          >
+            fred-astaire
+          </span>
+          <time
+            dateTime="2019-10-09T10:11:12.123Z"
+            itemProp="dateCreated"
+            title="2019-10-09T10:11:12.123Z"
+          >
+            3 weeks ago
+          </time>
+        </header>
+        <div
+          itemProp="text"
+        >
+          <div
+            className="sc-bZQynM kESxfG"
+          >
+            <p>
+              Sed do eiusmod tempor incididunt ut labore et dolore.
+            </p>
+          </div>
+        </div>
+        <footer
+          className="sc-kpOJdX fzEkOA"
+        >
+          <nav
+            className="sc-dxgOiQ qAjpS"
+          >
+            <button
+              aria-controls="overflow-menu-comment-comment1"
+              aria-expanded={false}
+              aria-haspopup="true"
+              className="sc-ckVGcZ ehJtkF"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                fill="currentColor"
+                focusable={false}
+                height="1.5em"
+                size="1.5em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                title="More actions"
+                viewBox="0 0 24 24"
+                width="1.5em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                />
+              </svg>
+            </button>
+          </nav>
+        </footer>
+      </article>
+    </li>
+    <li
+      className="sc-iAyFgw eoNjzy"
+      itemProp="comment"
+      itemScope={true}
+      itemType="http://schema.org/Comment"
+    >
+      <article>
+        <header
+          className="sc-jKJlTe dCQNcG"
+        >
+          <span
+            className="sc-eNQAEJ jsbjCq"
+            itemProp="author"
+          >
+            fred-astaire
+          </span>
+          <time
+            dateTime="2019-10-08T07:08:09.101Z"
+            itemProp="dateCreated"
+            title="2019-10-08T07:08:09.101Z"
+          >
+            3 weeks ago
+          </time>
+        </header>
+        <div
+          itemProp="text"
+        >
+          <p
+            className="sc-hSdWYo kGFdpB"
+          >
+            [deleted]
+          </p>
+        </div>
+      </article>
+    </li>
+    <li
+      className="sc-iAyFgw eoNjzy"
+      itemProp="comment"
+      itemScope={true}
+      itemType="http://schema.org/Comment"
+    >
+      <article>
+        <header
+          className="sc-jKJlTe dCQNcG"
+        >
+          <span
+            className="sc-eNQAEJ jsbjCq"
+            itemProp="author"
+          >
+            fred-astaire
+          </span>
+          <time
+            dateTime="2019-09-30T01:02:03.456Z"
+            itemProp="dateCreated"
+            title="2019-09-30T01:02:03.456Z"
+          >
+            1 month ago
+          </time>
+        </header>
+        <div
+          itemProp="text"
+        >
+          <div
+            className="sc-bZQynM kESxfG"
+          >
+            <p>
+              Quis nostrud exercitation ullamco laboris nisi ut.
+            </p>
+          </div>
+        </div>
+        <footer
+          className="sc-kpOJdX fzEkOA"
+        >
+          <nav
+            className="sc-dxgOiQ qAjpS"
+          >
+            <button
+              aria-controls="overflow-menu-comment-comment3"
+              aria-expanded={false}
+              aria-haspopup="true"
+              className="sc-ckVGcZ ehJtkF"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                fill="currentColor"
+                focusable={false}
+                height="1.5em"
+                size="1.5em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                title="More actions"
+                viewBox="0 0 24 24"
+                width="1.5em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                />
+              </svg>
+            </button>
+          </nav>
+        </footer>
+      </article>
+    </li>
+  </ul>
+</article>
+`;

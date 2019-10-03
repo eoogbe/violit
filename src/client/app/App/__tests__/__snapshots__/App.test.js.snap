@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders when logged out 1`] = `
+<div
+  className="sc-gisBJw bItBMj"
+>
+  <header
+    className="sc-kjoXOD jcvxUJ"
+  >
+    <h1
+      className="sc-cHGsZl AtFhj"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Violit
+      </a>
+    </h1>
+    <nav
+      className="sc-TOsTZ hDitJV"
+    >
+      <button
+        className="sc-ifAKCX hbBAat"
+      >
+        <a
+          href="/signup"
+          onClick={[Function]}
+        >
+          Sign up
+        </a>
+      </button>
+      <a
+        className="sc-kgAjT ityZT"
+        href="/login"
+        onClick={[Function]}
+      >
+        Log in
+      </a>
+    </nav>
+  </header>
+  <main
+    className="sc-eqIVtm kRffCT"
+  >
+    <article
+      className="sc-fBuWsC bJYtKI"
+    >
+      <header
+        className="sc-fMiknA kcrmtG"
+      >
+        <h2
+          className="sc-dVhcbM hquhcZ"
+        >
+          dance
+        </h2>
+        <a
+          href="/new-thread"
+          onClick={[Function]}
+        >
+          <svg
+            color="#7F00FF"
+            fill="currentColor"
+            height="1.5em"
+            size="1.5em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "#7F00FF",
+              }
+            }
+            title="New thread"
+            viewBox="0 0 24 24"
+            width="1.5em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
+            />
+          </svg>
+        </a>
+      </header>
+      <ul
+        className="sc-jhAzac gBCyfg"
+      >
+        <li
+          className="sc-Rmtcm hQsHdC"
+        >
+          <a
+            className="sc-bRBYWo hGkBnq"
+            href="/threads/lorem-ipsum"
+            onClick={[Function]}
+          >
+            <article
+              itemScope={true}
+              itemType="http://schema.org/DiscussionForumPosting"
+            >
+              <header
+                className="sc-jKJlTe dCQNcG"
+              >
+                <span
+                  className="sc-eNQAEJ jsbjCq"
+                  itemProp="author"
+                >
+                  fred-astaire
+                </span>
+                <time
+                  dateTime="2019-09-29T01:23:45.679Z"
+                  itemProp="dateCreated"
+                  title="2019-09-29T01:23:45.679Z"
+                >
+                  1 month ago
+                </time>
+              </header>
+              <p
+                className="sc-hzDkRC knCefW"
+                itemProp="headline"
+              >
+                Lorem ipsum
+              </p>
+            </article>
+          </a>
+        </li>
+        <li
+          className="sc-Rmtcm hQsHdC"
+        >
+          <a
+            className="sc-bRBYWo hGkBnq"
+            href="/threads/commodo-consequat"
+            onClick={[Function]}
+          >
+            <article
+              itemScope={true}
+              itemType="http://schema.org/DiscussionForumPosting"
+            >
+              <header
+                className="sc-jKJlTe dCQNcG"
+              >
+                <span
+                  className="sc-eNQAEJ jsbjCq"
+                  itemProp="author"
+                >
+                  fred-astaire
+                </span>
+                <time
+                  dateTime="2019-09-27T03:21:09.876Z"
+                  itemProp="dateCreated"
+                  title="2019-09-27T03:21:09.876Z"
+                >
+                  1 month ago
+                </time>
+              </header>
+              <p
+                className="sc-hzDkRC knCefW"
+                itemProp="headline"
+              >
+                Commodo consequat
+              </p>
+            </article>
+          </a>
+        </li>
+      </ul>
+    </article>
+  </main>
+</div>
+`;
+
+exports[`renders without crashing 1`] = `
+<div
+  className="sc-gisBJw bItBMj"
+>
+  <header
+    className="sc-kjoXOD jcvxUJ"
+  >
+    <h1
+      className="sc-cHGsZl AtFhj"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Violit
+      </a>
+    </h1>
+    <nav
+      className="sc-fAjcbJ dMzlBJ"
+    >
+      <button
+        aria-controls="dropdown-menu-user"
+        aria-expanded={false}
+        aria-haspopup="true"
+        className="sc-caSCKo bNlwdb"
+        onClick={[Function]}
+        type="button"
+      >
+        fred-astaire
+        <svg
+          fill="currentColor"
+          focusable="false"
+          height="1.25em"
+          size="1.25em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1.25em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </button>
+    </nav>
+  </header>
+  <main
+    className="sc-eqIVtm kRffCT"
+  >
+    <article
+      className="sc-fBuWsC bJYtKI"
+    >
+      <header
+        className="sc-fMiknA kcrmtG"
+      >
+        <h2
+          className="sc-dVhcbM hquhcZ"
+        >
+          dance
+        </h2>
+        <a
+          href="/new-thread"
+          onClick={[Function]}
+        >
+          <svg
+            color="#7F00FF"
+            fill="currentColor"
+            height="1.5em"
+            size="1.5em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "#7F00FF",
+              }
+            }
+            title="New thread"
+            viewBox="0 0 24 24"
+            width="1.5em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
+            />
+          </svg>
+        </a>
+      </header>
+      <ul
+        className="sc-jhAzac gBCyfg"
+      >
+        <li
+          className="sc-Rmtcm hQsHdC"
+        >
+          <a
+            className="sc-bRBYWo hGkBnq"
+            href="/threads/lorem-ipsum"
+            onClick={[Function]}
+          >
+            <article
+              itemScope={true}
+              itemType="http://schema.org/DiscussionForumPosting"
+            >
+              <header
+                className="sc-jKJlTe dCQNcG"
+              >
+                <span
+                  className="sc-eNQAEJ jsbjCq"
+                  itemProp="author"
+                >
+                  fred-astaire
+                </span>
+                <time
+                  dateTime="2019-09-29T01:23:45.679Z"
+                  itemProp="dateCreated"
+                  title="2019-09-29T01:23:45.679Z"
+                >
+                  1 month ago
+                </time>
+              </header>
+              <p
+                className="sc-hzDkRC knCefW"
+                itemProp="headline"
+              >
+                Lorem ipsum
+              </p>
+            </article>
+          </a>
+        </li>
+        <li
+          className="sc-Rmtcm hQsHdC"
+        >
+          <a
+            className="sc-bRBYWo hGkBnq"
+            href="/threads/commodo-consequat"
+            onClick={[Function]}
+          >
+            <article
+              itemScope={true}
+              itemType="http://schema.org/DiscussionForumPosting"
+            >
+              <header
+                className="sc-jKJlTe dCQNcG"
+              >
+                <span
+                  className="sc-eNQAEJ jsbjCq"
+                  itemProp="author"
+                >
+                  fred-astaire
+                </span>
+                <time
+                  dateTime="2019-09-27T03:21:09.876Z"
+                  itemProp="dateCreated"
+                  title="2019-09-27T03:21:09.876Z"
+                >
+                  1 month ago
+                </time>
+              </header>
+              <p
+                className="sc-hzDkRC knCefW"
+                itemProp="headline"
+              >
+                Commodo consequat
+              </p>
+            </article>
+          </a>
+        </li>
+      </ul>
+    </article>
+  </main>
+</div>
+`;

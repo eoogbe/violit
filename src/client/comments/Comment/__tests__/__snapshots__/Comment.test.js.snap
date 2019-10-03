@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders when deleted 1`] = `
+<li
+  className="sc-fjdhpX hXRbNK"
+  itemProp="comment"
+  itemScope={true}
+  itemType="http://schema.org/Comment"
+>
+  <article>
+    <header
+      className="sc-gqjmRU dBUhVe"
+    >
+      <span
+        className="sc-VigVT djDVvN"
+        itemProp="author"
+      >
+        fred-astaire
+      </span>
+      <time
+        dateTime="2019-10-08T07:08:09.101Z"
+        itemProp="dateCreated"
+        title="2019-10-08T07:08:09.101Z"
+      >
+        3 weeks ago
+      </time>
+    </header>
+    <div
+      itemProp="text"
+    >
+      <p
+        className="sc-jzJRlG cnQzZH"
+      >
+        [deleted]
+      </p>
+    </div>
+  </article>
+</li>
+`;
+
+exports[`renders without crashing 1`] = `
+<li
+  className="sc-fjdhpX hXRbNK"
+  itemProp="comment"
+  itemScope={true}
+  itemType="http://schema.org/Comment"
+>
+  <article>
+    <header
+      className="sc-gqjmRU dBUhVe"
+    >
+      <span
+        className="sc-VigVT djDVvN"
+        itemProp="author"
+      >
+        fred-astaire
+      </span>
+      <time
+        dateTime="2019-10-09T10:11:12.123Z"
+        itemProp="dateCreated"
+        title="2019-10-09T10:11:12.123Z"
+      >
+        3 weeks ago
+      </time>
+    </header>
+    <div
+      itemProp="text"
+    >
+      <div
+        className="sc-gZMcBi dDZOsr"
+      >
+        <p>
+          Sed do eiusmod tempor incididunt ut labore et dolore.
+        </p>
+      </div>
+    </div>
+    <footer
+      className="sc-htpNat gPlOuz"
+    >
+      <nav
+        className="sc-bxivhb eysMmV"
+      >
+        <button
+          aria-controls="overflow-menu-comment-comment1"
+          aria-expanded={false}
+          aria-haspopup="true"
+          className="sc-ifAKCX cLgJZS"
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            fill="currentColor"
+            focusable={false}
+            height="1.5em"
+            size="1.5em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            title="More actions"
+            viewBox="0 0 24 24"
+            width="1.5em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+            />
+          </svg>
+        </button>
+      </nav>
+    </footer>
+  </article>
+</li>
+`;

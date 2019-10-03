@@ -1,0 +1,3 @@
+```jsx
+<CommentForm createComment={() => {}} />
+```

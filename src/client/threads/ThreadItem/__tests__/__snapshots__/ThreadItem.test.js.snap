@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<li
+  className="sc-fjdhpX eXWQRP"
+>
+  <a
+    className="sc-jzJRlG agUXC"
+    href="/threads/lorem-ipsum"
+    onClick={[Function]}
+  >
+    <article
+      itemScope={true}
+      itemType="http://schema.org/DiscussionForumPosting"
+    >
+      <header
+        className="sc-gqjmRU dBUhVe"
+      >
+        <span
+          className="sc-VigVT djDVvN"
+          itemProp="author"
+        >
+          fred-astaire
+        </span>
+        <time
+          dateTime="2019-09-29T01:23:45.679Z"
+          itemProp="dateCreated"
+          title="2019-09-29T01:23:45.679Z"
+        >
+          1 month ago
+        </time>
+      </header>
+      <p
+        className="sc-cSHVUG KxKpN"
+        itemProp="headline"
+      >
+        Lorem ipsum
+      </p>
+    </article>
+  </a>
+</li>
+`;

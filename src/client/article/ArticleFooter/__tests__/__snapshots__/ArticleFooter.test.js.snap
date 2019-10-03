@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the open menu 1`] = `
+<footer
+  className="sc-htpNat gPlOuz"
+>
+  <nav
+    className="sc-bxivhb eysMmV"
+  >
+    <button
+      aria-controls="overflow-menu-article1"
+      aria-expanded={true}
+      aria-haspopup="true"
+      className="sc-ifAKCX cLgJZS"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        focusable={false}
+        height="1.5em"
+        size="1.5em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        title="More actions"
+        viewBox="0 0 24 24"
+        width="1.5em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+        />
+      </svg>
+    </button>
+    <ul
+      className="sc-bdVaJa dxqlea"
+      id="overflow-menu-article1"
+      role="menu"
+    >
+      <li
+        role="menuitem"
+      >
+        <button
+          className="sc-bwzfXH hxEwoI"
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            height="1.25em"
+            size="1.25em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1.25em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+            />
+          </svg>
+          Delete
+        </button>
+      </li>
+    </ul>
+  </nav>
+</footer>
+`;
+
+exports[`renders without crashing 1`] = `
+<footer
+  className="sc-htpNat gPlOuz"
+>
+  <nav
+    className="sc-bxivhb eysMmV"
+  >
+    <button
+      aria-controls="overflow-menu-article1"
+      aria-expanded={false}
+      aria-haspopup="true"
+      className="sc-ifAKCX cLgJZS"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        focusable={false}
+        height="1.5em"
+        size="1.5em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        title="More actions"
+        viewBox="0 0 24 24"
+        width="1.5em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+        />
+      </svg>
+    </button>
+  </nav>
+</footer>
+`;

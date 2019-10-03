@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<form
+  className="sc-dnqmqq jjuQyM"
+  onSubmit={[Function]}
+>
+  <ul
+    className="sc-iwsKbI dgXfCH"
+  >
+    <li>
+      <textarea
+        className="sc-htoDjs kEmxlR"
+        name="text"
+        onChange={[Function]}
+        placeholder="Write a comment"
+        rows={5}
+        value=""
+      />
+    </li>
+  </ul>
+  <button
+    className="sc-ifAKCX hbBAat sc-gZMcBi exoESG"
+    disabled={true}
+    type="submit"
+  >
+    Comment
+  </button>
+</form>
+`;

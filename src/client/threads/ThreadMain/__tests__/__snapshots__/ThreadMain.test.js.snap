@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render without crashing 1`] = `
+Array [
+  <h2
+    className="sc-hMqMXs hgQeqg"
+    itemProp="headline"
+  >
+    Lorem ipsum
+  </h2>,
+  <header
+    className="sc-gqjmRU dBUhVe"
+  >
+    <span
+      className="sc-VigVT djDVvN"
+      itemProp="author"
+    >
+      fred-astaire
+    </span>
+    <time
+      dateTime="2019-09-29T01:23:45.679Z"
+      itemProp="dateCreated"
+      title="2019-09-29T01:23:45.679Z"
+    >
+      1 month ago
+    </time>
+  </header>,
+  <div
+    itemProp="articleBody"
+  >
+    <div
+      className="sc-gZMcBi dDZOsr"
+    >
+      <p>
+        Dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>,
+  <form
+    className="sc-cSHVUG jxHEP"
+    onSubmit={[Function]}
+  >
+    <ul
+      className="sc-kAzzGY ckrMOY"
+    >
+      <li>
+        <textarea
+          className="sc-jzJRlG hNkXwR"
+          name="text"
+          onChange={[Function]}
+          placeholder="Write a comment"
+          rows={5}
+          value=""
+        />
+      </li>
+    </ul>
+    <button
+      className="sc-dnqmqq bECuVm sc-chPdSV bBcFRQ"
+      disabled={true}
+      type="submit"
+    >
+      Comment
+    </button>
+  </form>,
+  <footer
+    className="sc-htpNat gPlOuz"
+  >
+    <nav
+      className="sc-bxivhb eysMmV"
+    >
+      <button
+        aria-controls="overflow-menu-thread-thread1"
+        aria-expanded={false}
+        aria-haspopup="true"
+        className="sc-ifAKCX cLgJZS"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          focusable={false}
+          height="1.5em"
+          size="1.5em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          title="More actions"
+          viewBox="0 0 24 24"
+          width="1.5em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+          />
+        </svg>
+      </button>
+    </nav>
+  </footer>,
+]
+`;
+
+exports[`renders when cannot create a comment 1`] = `
+Array [
+  <h2
+    className="sc-hMqMXs hgQeqg"
+    itemProp="headline"
+  >
+    Lorem ipsum
+  </h2>,
+  <header
+    className="sc-gqjmRU dBUhVe"
+  >
+    <span
+      className="sc-VigVT djDVvN"
+      itemProp="author"
+    >
+      fred-astaire
+    </span>
+    <time
+      dateTime="2019-09-29T01:23:45.679Z"
+      itemProp="dateCreated"
+      title="2019-09-29T01:23:45.679Z"
+    >
+      1 month ago
+    </time>
+  </header>,
+  <div
+    itemProp="articleBody"
+  >
+    <div
+      className="sc-gZMcBi dDZOsr"
+    >
+      <p>
+        Dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>,
+  <p
+    className="sc-kkGfuU hDjocN"
+  >
+    What are your thoughts? 
+    <a
+      href="/login"
+      onClick={[Function]}
+    >
+      Log in
+    </a>
+  </p>,
+]
+`;
+
+exports[`renders when deleted 1`] = `
+Array [
+  <h2
+    className="sc-hMqMXs hgQeqg"
+    itemProp="headline"
+  >
+    Lorem ipsum
+  </h2>,
+  <header
+    className="sc-gqjmRU dBUhVe"
+  >
+    <span
+      className="sc-VigVT djDVvN"
+      itemProp="author"
+    >
+      fred-astaire
+    </span>
+    <time
+      dateTime="2019-09-29T01:23:45.679Z"
+      itemProp="dateCreated"
+      title="2019-09-29T01:23:45.679Z"
+    >
+      1 month ago
+    </time>
+  </header>,
+  <div
+    itemProp="articleBody"
+  >
+    <p
+      className="sc-kEYyzF jLXdTC"
+    >
+      [deleted]
+    </p>
+  </div>,
+]
+`;
+
+exports[`renders without article body 1`] = `
+Array [
+  <h2
+    className="sc-hMqMXs hgQeqg"
+    itemProp="headline"
+  >
+    Lorem ipsum
+  </h2>,
+  <header
+    className="sc-gqjmRU dBUhVe"
+  >
+    <span
+      className="sc-VigVT djDVvN"
+      itemProp="author"
+    >
+      fred-astaire
+    </span>
+    <time
+      dateTime="2019-09-29T01:23:45.679Z"
+      itemProp="dateCreated"
+      title="2019-09-29T01:23:45.679Z"
+    >
+      1 month ago
+    </time>
+  </header>,
+  <div
+    itemProp="articleBody"
+  />,
+  <form
+    className="sc-cSHVUG jxHEP"
+    onSubmit={[Function]}
+  >
+    <ul
+      className="sc-kAzzGY ckrMOY"
+    >
+      <li>
+        <textarea
+          className="sc-jzJRlG hNkXwR"
+          name="text"
+          onChange={[Function]}
+          placeholder="Write a comment"
+          rows={5}
+          value=""
+        />
+      </li>
+    </ul>
+    <button
+      className="sc-dnqmqq bECuVm sc-chPdSV bBcFRQ"
+      disabled={true}
+      type="submit"
+    >
+      Comment
+    </button>
+  </form>,
+  <footer
+    className="sc-htpNat gPlOuz"
+  >
+    <nav
+      className="sc-bxivhb eysMmV"
+    >
+      <button
+        aria-controls="overflow-menu-thread-thread1"
+        aria-expanded={false}
+        aria-haspopup="true"
+        className="sc-ifAKCX cLgJZS"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          focusable={false}
+          height="1.5em"
+          size="1.5em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          title="More actions"
+          viewBox="0 0 24 24"
+          width="1.5em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+          />
+        </svg>
+      </button>
+    </nav>
+  </footer>,
+]
+`;

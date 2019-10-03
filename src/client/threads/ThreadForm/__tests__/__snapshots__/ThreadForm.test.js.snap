@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<form
+  className="sc-hMqMXs dEZLlH"
+  onSubmit={[Function]}
+>
+  <h2
+    className="sc-kEYyzF jZYaHt"
+  >
+    New thread
+  </h2>
+  <ul
+    className="sc-kkGfuU tdPwr"
+  >
+    <li>
+      <label
+        htmlFor="headline"
+      >
+        Title
+      </label>
+      <input
+        aria-required="true"
+        autoFocus={true}
+        className="sc-htoDjs kEmxlR"
+        id="headline"
+        name="headline"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </li>
+    <li>
+      <label
+        htmlFor="article-body"
+      >
+        Body
+      </label>
+      <textarea
+        className="sc-htoDjs kEmxlR"
+        id="article-body"
+        name="article-body"
+        onChange={[Function]}
+        rows={5}
+        value=""
+      />
+    </li>
+  </ul>
+  <button
+    className="sc-ifAKCX hbBAat sc-iAyFgw koyBbc"
+    disabled={true}
+    type="submit"
+  >
+    Post
+  </button>
+</form>
+`;

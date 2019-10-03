@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<header
+  className="sc-gzVnrw iyjuRw"
+>
+  <span
+    className="sc-htoDjs cMLlsL"
+    itemProp="author"
+  >
+    fred-astaire
+  </span>
+  <time
+    dateTime="2019-09-29T01:23:45.679Z"
+    itemProp="dateCreated"
+    title="2019-09-29T01:23:45.679Z"
+  >
+    1 month ago
+  </time>
+</header>
+`;

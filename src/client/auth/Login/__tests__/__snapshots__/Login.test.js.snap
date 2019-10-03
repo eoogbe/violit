@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<form
+  className="sc-dnqmqq bwQyKk"
+  onSubmit={[Function]}
+>
+  <h2
+    className="sc-iwsKbI eMpqKh"
+  >
+    Login
+  </h2>
+  <ul
+    className="sc-gZMcBi dOixHG"
+  >
+    <li>
+      <label
+        htmlFor="username"
+      >
+        Username
+      </label>
+      <input
+        aria-required="true"
+        autoFocus={true}
+        className="sc-htoDjs kEmxlR"
+        id="username"
+        name="username"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </li>
+    <li>
+      <label
+        htmlFor="password"
+      >
+        Password
+      </label>
+      <input
+        aria-required="true"
+        className="sc-htoDjs kEmxlR"
+        id="password"
+        name="password"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+    </li>
+  </ul>
+  <button
+    className="sc-ifAKCX hbBAat sc-gqjmRU kZCXhP"
+    disabled={true}
+    type="submit"
+  >
+    Log in
+  </button>
+</form>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders less than a minute ago 1`] = `
+<time
+  dateTime="2019-10-31T23:59:58.000Z"
+  title="2019-10-31 23:59"
+>
+  less than a minute ago
+</time>
+`;
+
+exports[`renders without crashing 1`] = `
+<time
+  dateTime="2019-10-31T23:56:40.000Z"
+  title="2019-10-31 23:56"
+>
+  3 minutes ago
+</time>
+`;

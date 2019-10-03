@@ -1,0 +1,807 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the error state 1`] = `
+<main
+  className="sc-eqIVtm kRffCT"
+>
+  <article
+    className="sc-fBuWsC bJYtKI"
+  >
+    <header
+      className="sc-fMiknA kcrmtG"
+    >
+      <h2
+        className="sc-dVhcbM hquhcZ"
+      >
+        dance
+      </h2>
+      <a
+        href="/new-thread"
+        onClick={[Function]}
+      >
+        <svg
+          color="#7F00FF"
+          fill="currentColor"
+          height="1.5em"
+          size="1.5em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": "#7F00FF",
+            }
+          }
+          title="New thread"
+          viewBox="0 0 24 24"
+          width="1.5em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
+          />
+        </svg>
+      </a>
+    </header>
+    <ul
+      className="sc-jhAzac gBCyfg"
+    >
+      <li
+        className="sc-Rmtcm hQsHdC"
+      >
+        <a
+          className="sc-bRBYWo hGkBnq"
+          href="/threads/lorem-ipsum"
+          onClick={[Function]}
+        >
+          <article
+            itemScope={true}
+            itemType="http://schema.org/DiscussionForumPosting"
+          >
+            <header
+              className="sc-jKJlTe dCQNcG"
+            >
+              <span
+                className="sc-eNQAEJ jsbjCq"
+                itemProp="author"
+              >
+                fred-astaire
+              </span>
+              <time
+                dateTime="2019-09-29T01:23:45.679Z"
+                itemProp="dateCreated"
+                title="2019-09-29T01:23:45.679Z"
+              >
+                1 month ago
+              </time>
+            </header>
+            <p
+              className="sc-hzDkRC knCefW"
+              itemProp="headline"
+            >
+              Lorem ipsum
+            </p>
+          </article>
+        </a>
+      </li>
+      <li
+        className="sc-Rmtcm hQsHdC"
+      >
+        <a
+          className="sc-bRBYWo hGkBnq"
+          href="/threads/commodo-consequat"
+          onClick={[Function]}
+        >
+          <article
+            itemScope={true}
+            itemType="http://schema.org/DiscussionForumPosting"
+          >
+            <header
+              className="sc-jKJlTe dCQNcG"
+            >
+              <span
+                className="sc-eNQAEJ jsbjCq"
+                itemProp="author"
+              >
+                fred-astaire
+              </span>
+              <time
+                dateTime="2019-09-27T03:21:09.876Z"
+                itemProp="dateCreated"
+                title="2019-09-27T03:21:09.876Z"
+              >
+                1 month ago
+              </time>
+            </header>
+            <p
+              className="sc-hzDkRC knCefW"
+              itemProp="headline"
+            >
+              Commodo consequat
+            </p>
+          </article>
+        </a>
+      </li>
+    </ul>
+  </article>
+  <div
+    aria-live="assertive"
+    className="sc-bdVaJa dXBAhf"
+    role="alert"
+  >
+    <p
+      className="sc-htpNat bhpHJD"
+    >
+      Oops! Something went wrong with 
+      that action
+      ! 
+      <button
+        className="sc-bxivhb ErYiX"
+        onClick={[Function]}
+        type="button"
+      >
+        Reload page
+      </button>
+    </p>
+    <button
+      className="sc-bwzfXH haUZkm"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        focusable="false"
+        height="1.25em"
+        size="1.25em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        title="Dismiss alert"
+        viewBox="0 0 24 24"
+        width="1.25em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+        />
+      </svg>
+    </button>
+  </div>
+</main>
+`;
+
+exports[`renders the login screen 1`] = `
+<main
+  className="sc-eqIVtm kRffCT"
+>
+  <form
+    className="sc-dnqmqq bwQyKk"
+    onSubmit={[Function]}
+  >
+    <h2
+      className="sc-iwsKbI eMpqKh"
+    >
+      Login
+    </h2>
+    <ul
+      className="sc-gZMcBi dOixHG"
+    >
+      <li>
+        <label
+          htmlFor="username"
+        >
+          Username
+        </label>
+        <input
+          aria-required="true"
+          autoFocus={true}
+          className="sc-htoDjs kEmxlR"
+          id="username"
+          name="username"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </li>
+      <li>
+        <label
+          htmlFor="password"
+        >
+          Password
+        </label>
+        <input
+          aria-required="true"
+          className="sc-htoDjs kEmxlR"
+          id="password"
+          name="password"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="password"
+          value=""
+        />
+      </li>
+    </ul>
+    <button
+      className="sc-ifAKCX hbBAat sc-gqjmRU kZCXhP"
+      disabled={true}
+      type="submit"
+    >
+      Log in
+    </button>
+  </form>
+</main>
+`;
+
+exports[`renders the new thread screen 1`] = `
+<main
+  className="sc-eqIVtm kRffCT"
+>
+  <form
+    className="sc-iRbamj dfRSUU"
+    onSubmit={[Function]}
+  >
+    <h2
+      className="sc-jlyJG htSWWt"
+    >
+      New thread
+    </h2>
+    <ul
+      className="sc-gipzik eXbhrh"
+    >
+      <li>
+        <label
+          htmlFor="headline"
+        >
+          Title
+        </label>
+        <input
+          aria-required="true"
+          autoFocus={true}
+          className="sc-htoDjs kEmxlR"
+          id="headline"
+          name="headline"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </li>
+      <li>
+        <label
+          htmlFor="article-body"
+        >
+          Body
+        </label>
+        <textarea
+          className="sc-htoDjs kEmxlR"
+          id="article-body"
+          name="article-body"
+          onChange={[Function]}
+          rows={5}
+          value=""
+        />
+      </li>
+    </ul>
+    <button
+      className="sc-ifAKCX hbBAat sc-csuQGl cDFWor"
+      disabled={true}
+      type="submit"
+    >
+      Post
+    </button>
+  </form>
+</main>
+`;
+
+exports[`renders the signup screen 1`] = `
+<main
+  className="sc-eqIVtm kRffCT"
+>
+  <form
+    className="sc-VigVT hehCXF"
+    onSubmit={[Function]}
+  >
+    <h2
+      className="sc-jTzLTM bADGtk"
+    >
+      Signup
+    </h2>
+    <ul
+      className="sc-fjdhpX dGhdaN"
+    >
+      <li>
+        <label
+          htmlFor="username"
+        >
+          Username
+        </label>
+        <input
+          aria-required="true"
+          autoFocus={true}
+          className="sc-htoDjs kEmxlR"
+          id="username"
+          name="username"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </li>
+      <li>
+        <label
+          htmlFor="password"
+        >
+          Password
+        </label>
+        <input
+          aria-required="true"
+          className="sc-htoDjs kEmxlR"
+          id="password"
+          name="password"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="password"
+          value=""
+        />
+      </li>
+      <li>
+        <label
+          htmlFor="password-confirmation"
+        >
+          Password confirmation
+        </label>
+        <input
+          aria-required="true"
+          className="sc-htoDjs kEmxlR"
+          id="password-confirmation"
+          name="password-confirmation"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="password"
+          value=""
+        />
+      </li>
+    </ul>
+    <button
+      className="sc-ifAKCX hbBAat sc-jzJRlG grlris"
+      disabled={true}
+      type="submit"
+    >
+      Sign up
+    </button>
+  </form>
+</main>
+`;
+
+exports[`renders the thread screen 1`] = `
+<main
+  className="sc-eqIVtm kRffCT"
+>
+  <article
+    className="sc-jDwBTQ gWsmob"
+    itemScope={true}
+    itemType="http://schema.org/DiscussionForumPosting"
+  >
+    <div
+      className="sc-gPEVay dOeLqP"
+    >
+      <h2
+        className="sc-brqgnP kAzWxO"
+        itemProp="headline"
+      >
+        Lorem ipsum
+      </h2>
+      <header
+        className="sc-jKJlTe dCQNcG"
+      >
+        <span
+          className="sc-eNQAEJ jsbjCq"
+          itemProp="author"
+        >
+          fred-astaire
+        </span>
+        <time
+          dateTime="2019-09-29T01:23:45.679Z"
+          itemProp="dateCreated"
+          title="2019-09-29T01:23:45.679Z"
+        >
+          1 month ago
+        </time>
+      </header>
+      <div
+        itemProp="articleBody"
+      >
+        <div
+          className="sc-bZQynM kESxfG"
+        >
+          <p>
+            Dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+      </div>
+      <form
+        className="sc-cSHVUG jxHEP"
+        onSubmit={[Function]}
+      >
+        <ul
+          className="sc-kAzzGY ckrMOY"
+        >
+          <li>
+            <textarea
+              className="sc-htoDjs kEmxlR"
+              name="text"
+              onChange={[Function]}
+              placeholder="Write a comment"
+              rows={5}
+              value=""
+            />
+          </li>
+        </ul>
+        <button
+          className="sc-ifAKCX hbBAat sc-chPdSV bBcFRQ"
+          disabled={true}
+          type="submit"
+        >
+          Comment
+        </button>
+      </form>
+      <footer
+        className="sc-kpOJdX fzEkOA"
+      >
+        <nav
+          className="sc-dxgOiQ qAjpS"
+        >
+          <button
+            aria-controls="overflow-menu-thread-thread1"
+            aria-expanded={false}
+            aria-haspopup="true"
+            className="sc-ckVGcZ ehJtkF"
+            onClick={[Function]}
+            type="button"
+          >
+            <svg
+              fill="currentColor"
+              focusable={false}
+              height="1.5em"
+              size="1.5em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              title="More actions"
+              viewBox="0 0 24 24"
+              width="1.5em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+              />
+            </svg>
+          </button>
+        </nav>
+      </footer>
+    </div>
+    <ul
+      className="sc-cvbbAY HtGJA"
+    >
+      <li
+        className="sc-iAyFgw eoNjzy"
+        itemProp="comment"
+        itemScope={true}
+        itemType="http://schema.org/Comment"
+      >
+        <article>
+          <header
+            className="sc-jKJlTe dCQNcG"
+          >
+            <span
+              className="sc-eNQAEJ jsbjCq"
+              itemProp="author"
+            >
+              fred-astaire
+            </span>
+            <time
+              dateTime="2019-10-09T10:11:12.123Z"
+              itemProp="dateCreated"
+              title="2019-10-09T10:11:12.123Z"
+            >
+              3 weeks ago
+            </time>
+          </header>
+          <div
+            itemProp="text"
+          >
+            <div
+              className="sc-bZQynM kESxfG"
+            >
+              <p>
+                Sed do eiusmod tempor incididunt ut labore et dolore.
+              </p>
+            </div>
+          </div>
+          <footer
+            className="sc-kpOJdX fzEkOA"
+          >
+            <nav
+              className="sc-dxgOiQ qAjpS"
+            >
+              <button
+                aria-controls="overflow-menu-comment-comment1"
+                aria-expanded={false}
+                aria-haspopup="true"
+                className="sc-ckVGcZ ehJtkF"
+                onClick={[Function]}
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  focusable={false}
+                  height="1.5em"
+                  size="1.5em"
+                  stroke="currentColor"
+                  strokeWidth="0"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  title="More actions"
+                  viewBox="0 0 24 24"
+                  width="1.5em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                  />
+                </svg>
+              </button>
+            </nav>
+          </footer>
+        </article>
+      </li>
+      <li
+        className="sc-iAyFgw eoNjzy"
+        itemProp="comment"
+        itemScope={true}
+        itemType="http://schema.org/Comment"
+      >
+        <article>
+          <header
+            className="sc-jKJlTe dCQNcG"
+          >
+            <span
+              className="sc-eNQAEJ jsbjCq"
+              itemProp="author"
+            >
+              fred-astaire
+            </span>
+            <time
+              dateTime="2019-10-08T07:08:09.101Z"
+              itemProp="dateCreated"
+              title="2019-10-08T07:08:09.101Z"
+            >
+              3 weeks ago
+            </time>
+          </header>
+          <div
+            itemProp="text"
+          >
+            <p
+              className="sc-hSdWYo kGFdpB"
+            >
+              [deleted]
+            </p>
+          </div>
+        </article>
+      </li>
+      <li
+        className="sc-iAyFgw eoNjzy"
+        itemProp="comment"
+        itemScope={true}
+        itemType="http://schema.org/Comment"
+      >
+        <article>
+          <header
+            className="sc-jKJlTe dCQNcG"
+          >
+            <span
+              className="sc-eNQAEJ jsbjCq"
+              itemProp="author"
+            >
+              fred-astaire
+            </span>
+            <time
+              dateTime="2019-09-30T01:02:03.456Z"
+              itemProp="dateCreated"
+              title="2019-09-30T01:02:03.456Z"
+            >
+              1 month ago
+            </time>
+          </header>
+          <div
+            itemProp="text"
+          >
+            <div
+              className="sc-bZQynM kESxfG"
+            >
+              <p>
+                Quis nostrud exercitation ullamco laboris nisi ut.
+              </p>
+            </div>
+          </div>
+          <footer
+            className="sc-kpOJdX fzEkOA"
+          >
+            <nav
+              className="sc-dxgOiQ qAjpS"
+            >
+              <button
+                aria-controls="overflow-menu-comment-comment3"
+                aria-expanded={false}
+                aria-haspopup="true"
+                className="sc-ckVGcZ ehJtkF"
+                onClick={[Function]}
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  focusable={false}
+                  height="1.5em"
+                  size="1.5em"
+                  stroke="currentColor"
+                  strokeWidth="0"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  title="More actions"
+                  viewBox="0 0 24 24"
+                  width="1.5em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                  />
+                </svg>
+              </button>
+            </nav>
+          </footer>
+        </article>
+      </li>
+    </ul>
+  </article>
+</main>
+`;
+
+exports[`renders without crashing 1`] = `
+<main
+  className="sc-eqIVtm kRffCT"
+>
+  <article
+    className="sc-fBuWsC bJYtKI"
+  >
+    <header
+      className="sc-fMiknA kcrmtG"
+    >
+      <h2
+        className="sc-dVhcbM hquhcZ"
+      >
+        dance
+      </h2>
+      <a
+        href="/new-thread"
+        onClick={[Function]}
+      >
+        <svg
+          color="#7F00FF"
+          fill="currentColor"
+          height="1.5em"
+          size="1.5em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": "#7F00FF",
+            }
+          }
+          title="New thread"
+          viewBox="0 0 24 24"
+          width="1.5em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
+          />
+        </svg>
+      </a>
+    </header>
+    <ul
+      className="sc-jhAzac gBCyfg"
+    >
+      <li
+        className="sc-Rmtcm hQsHdC"
+      >
+        <a
+          className="sc-bRBYWo hGkBnq"
+          href="/threads/lorem-ipsum"
+          onClick={[Function]}
+        >
+          <article
+            itemScope={true}
+            itemType="http://schema.org/DiscussionForumPosting"
+          >
+            <header
+              className="sc-jKJlTe dCQNcG"
+            >
+              <span
+                className="sc-eNQAEJ jsbjCq"
+                itemProp="author"
+              >
+                fred-astaire
+              </span>
+              <time
+                dateTime="2019-09-29T01:23:45.679Z"
+                itemProp="dateCreated"
+                title="2019-09-29T01:23:45.679Z"
+              >
+                1 month ago
+              </time>
+            </header>
+            <p
+              className="sc-hzDkRC knCefW"
+              itemProp="headline"
+            >
+              Lorem ipsum
+            </p>
+          </article>
+        </a>
+      </li>
+      <li
+        className="sc-Rmtcm hQsHdC"
+      >
+        <a
+          className="sc-bRBYWo hGkBnq"
+          href="/threads/commodo-consequat"
+          onClick={[Function]}
+        >
+          <article
+            itemScope={true}
+            itemType="http://schema.org/DiscussionForumPosting"
+          >
+            <header
+              className="sc-jKJlTe dCQNcG"
+            >
+              <span
+                className="sc-eNQAEJ jsbjCq"
+                itemProp="author"
+              >
+                fred-astaire
+              </span>
+              <time
+                dateTime="2019-09-27T03:21:09.876Z"
+                itemProp="dateCreated"
+                title="2019-09-27T03:21:09.876Z"
+              >
+                1 month ago
+              </time>
+            </header>
+            <p
+              className="sc-hzDkRC knCefW"
+              itemProp="headline"
+            >
+              Commodo consequat
+            </p>
+          </article>
+        </a>
+      </li>
+    </ul>
+  </article>
+</main>
+`;
